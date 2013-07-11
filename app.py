@@ -36,10 +36,6 @@ def product_info(id):
 
     d = pq(html)
 
-    def tail(el):
-        if el:
-            return el[0].tail.strip()
-
     data = {}
 
     data['amazon_id'] = id
